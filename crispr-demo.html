@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CRISPR-FinAI — Mini Demo</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;background:#f4f7fb;color:#21304a;padding:24px}
+    .card{background:white;padding:18px;border-radius:10px;max-width:900px;margin:24px auto;box-shadow:0 8px 30px rgba(18,35,70,0.06)}
+    .header{display:flex;align-items:center;gap:14px}
+    .brand{font-weight:800;font-size:1.6rem;color:#6c7ef1}
+    button{padding:10px 14px;border-radius:8px;border:none;cursor:pointer;background:#6c7ef1;color:white}
+    .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center}
+    .modal{background:white;padding:18px;border-radius:10px;max-width:720px;width:90%}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <div class="brand">🧬 CRISPR-FinAI Live Demo (Mini)</div>
+    </div>
+    <p>Self-healing trading demo — sadece gösterim amaçlı, canlı işlem içermez.</p>
+    <div>
+      <button id="openGenomeBtn">Genome Snapshot</button>
+    </div>
+  </div>
+
+  <template id="genomeTpl">
+    <div class="modal-backdrop">
+      <div class="modal">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+          <h3 style="margin:0">Genome Snapshot</h3>
+          <button id="closeGenomeBtn">Kapat</button>
+        </div>
+        <div id="genomeContent">
+          <p><strong>Best fitness:</strong> 0.82</p>
+          <p><strong>Population:</strong> 24</p>
+          <p>Bu alan demo telemetry verisi gösterir.</p>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <script>
+    const openBtn = document.getElementById('openGenomeBtn');
+    openBtn.addEventListener('click', () => {
+      const tpl = document.getElementById('genomeTpl');
+      const el = tpl.content.cloneNode(true);
+      document.body.appendChild(el);
+      document.getElementById('closeGenomeBtn').addEventListener('click', () => {
+        const backdrop = document.querySelector('.modal-backdrop');
+        if (backdrop) backdrop.remove();
+      });
+    });
+  </script>
+</body>
+</html>
