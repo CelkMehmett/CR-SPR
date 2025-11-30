@@ -1,0 +1,2 @@
+best_value,best_params
+0.28299559660141516,"{""population_size"": 45, ""mutation_rate"": 0.010125738013151983, ""crossover_rate"": 0.577865951905419, ""elitism_ratio"": 0.21816320979438947, ""genome_dim"": 4}"

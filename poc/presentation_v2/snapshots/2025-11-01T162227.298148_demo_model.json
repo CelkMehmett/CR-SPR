@@ -1,0 +1,5478 @@
+{
+  "name": "demo_model",
+  "model_type": "financial_ml",
+  "creation_time": "2025-11-01T16:22:27.272336",
+  "snapshot_time": "2025-11-01T16:22:27.298148",
+  "metadata": {
+    "version": "1.0",
+    "generation": 1,
+    "parent_genomes": [],
+    "performance_metrics": {},
+    "edit_history": [
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6388831461311305",
+        "timestamp": "2025-11-01 16:22:27.272757",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7627862658917304",
+        "timestamp": "2025-11-01 16:22:27.272767",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.7561095084613924",
+        "timestamp": "2025-11-01 16:22:27.272845",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.9467645756559442",
+        "timestamp": "2025-11-01 16:22:27.272852",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6778802634582677",
+        "timestamp": "2025-11-01 16:22:27.272897",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.680866461253909",
+        "timestamp": "2025-11-01 16:22:27.272903",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.5251381199714852",
+        "timestamp": "2025-11-01 16:22:27.272945",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.8121324980075844",
+        "timestamp": "2025-11-01 16:22:27.272951",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.740757313716101",
+        "timestamp": "2025-11-01 16:22:27.272989",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7837689186715727",
+        "timestamp": "2025-11-01 16:22:27.272995",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.9234267749860627",
+        "timestamp": "2025-11-01 16:22:27.273031",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.9849257022991224",
+        "timestamp": "2025-11-01 16:22:27.273037",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.736380982606739",
+        "timestamp": "2025-11-01 16:22:27.273074",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7426821532087181",
+        "timestamp": "2025-11-01 16:22:27.273080",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.74327837381549",
+        "timestamp": "2025-11-01 16:22:27.273116",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.867093406210403",
+        "timestamp": "2025-11-01 16:22:27.273122",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.5014843516996992",
+        "timestamp": "2025-11-01 16:22:27.273162",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.8464100759611471",
+        "timestamp": "2025-11-01 16:22:27.273168",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.273204",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.273210",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.5717546361403131",
+        "timestamp": "2025-11-01 16:22:27.273248",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7876237227397765",
+        "timestamp": "2025-11-01 16:22:27.273254",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.7643448454735633",
+        "timestamp": "2025-11-01 16:22:27.273288",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.8951315656882836",
+        "timestamp": "2025-11-01 16:22:27.273295",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.7280821784922707",
+        "timestamp": "2025-11-01 16:22:27.273330",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.8224596146638168",
+        "timestamp": "2025-11-01 16:22:27.273336",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.7236590304752386",
+        "timestamp": "2025-11-01 16:22:27.273370",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7074246479776651",
+        "timestamp": "2025-11-01 16:22:27.273376",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6766856694552442",
+        "timestamp": "2025-11-01 16:22:27.273410",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7420578637029513",
+        "timestamp": "2025-11-01 16:22:27.273416",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.8030074055388048",
+        "timestamp": "2025-11-01 16:22:27.273449",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.6333759188359616",
+        "timestamp": "2025-11-01 16:22:27.273456",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.7552144057340946",
+        "timestamp": "2025-11-01 16:22:27.273489",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7343040136535024",
+        "timestamp": "2025-11-01 16:22:27.273495",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6237263185269244",
+        "timestamp": "2025-11-01 16:22:27.273529",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7099977215203488",
+        "timestamp": "2025-11-01 16:22:27.273536",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.7393399099694872",
+        "timestamp": "2025-11-01 16:22:27.273629",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.9182049419702236",
+        "timestamp": "2025-11-01 16:22:27.273637",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.8448896743698189",
+        "timestamp": "2025-11-01 16:22:27.273696",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.6867650152720816",
+        "timestamp": "2025-11-01 16:22:27.273703",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6388831461311305",
+        "timestamp": "2025-11-01 16:22:27.274137",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7627862658917304",
+        "timestamp": "2025-11-01 16:22:27.274145",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.8030074055388048",
+        "timestamp": "2025-11-01 16:22:27.274178",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.6333759188359616",
+        "timestamp": "2025-11-01 16:22:27.274185",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.7552144057340946",
+        "timestamp": "2025-11-01 16:22:27.274242",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7343040136535024",
+        "timestamp": "2025-11-01 16:22:27.274249",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6237263185269244",
+        "timestamp": "2025-11-01 16:22:27.274276",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7099977215203488",
+        "timestamp": "2025-11-01 16:22:27.274283",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.736380982606739",
+        "timestamp": "2025-11-01 16:22:27.274336",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7426821532087181",
+        "timestamp": "2025-11-01 16:22:27.274343",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6778802634582677",
+        "timestamp": "2025-11-01 16:22:27.274372",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.680866461253909",
+        "timestamp": "2025-11-01 16:22:27.274378",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.274426",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.274433",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.274459",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.274464",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.8030074055388048",
+        "timestamp": "2025-11-01 16:22:27.274509",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.6333759188359616",
+        "timestamp": "2025-11-01 16:22:27.274515",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.274540",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.274574",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.8030074055388048",
+        "timestamp": "2025-11-01 16:22:27.274698",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.6333759188359616",
+        "timestamp": "2025-11-01 16:22:27.274706",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.5251381199714852",
+        "timestamp": "2025-11-01 16:22:27.274763",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.8121324980075844",
+        "timestamp": "2025-11-01 16:22:27.274777",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6778802634582677",
+        "timestamp": "2025-11-01 16:22:27.274911",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.680866461253909",
+        "timestamp": "2025-11-01 16:22:27.274921",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6237263185269244",
+        "timestamp": "2025-11-01 16:22:27.274960",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7099977215203488",
+        "timestamp": "2025-11-01 16:22:27.274969",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.740757313716101",
+        "timestamp": "2025-11-01 16:22:27.275035",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7837689186715727",
+        "timestamp": "2025-11-01 16:22:27.275044",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.5014843516996992",
+        "timestamp": "2025-11-01 16:22:27.275079",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.8464100759611471",
+        "timestamp": "2025-11-01 16:22:27.275087",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.7552144057340946",
+        "timestamp": "2025-11-01 16:22:27.275178",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7343040136535024",
+        "timestamp": "2025-11-01 16:22:27.275187",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.5014843516996992",
+        "timestamp": "2025-11-01 16:22:27.275222",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.8464100759611471",
+        "timestamp": "2025-11-01 16:22:27.275230",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.5014843516996992",
+        "timestamp": "2025-11-01 16:22:27.275571",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.8464100759611471",
+        "timestamp": "2025-11-01 16:22:27.275590",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.275643",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.275652",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.275740",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.275747",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6237263185269244",
+        "timestamp": "2025-11-01 16:22:27.275778",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7099977215203488",
+        "timestamp": "2025-11-01 16:22:27.275785",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.275852",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.275859",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.8030074055388048",
+        "timestamp": "2025-11-01 16:22:27.275888",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.6333759188359616",
+        "timestamp": "2025-11-01 16:22:27.275895",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.275950",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.275957",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6237263185269244",
+        "timestamp": "2025-11-01 16:22:27.275984",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7099977215203488",
+        "timestamp": "2025-11-01 16:22:27.275991",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.276052",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.276062",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6778802634582677",
+        "timestamp": "2025-11-01 16:22:27.276108",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.680866461253909",
+        "timestamp": "2025-11-01 16:22:27.276122",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.276203",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.276214",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.276259",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.276271",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6237263185269244",
+        "timestamp": "2025-11-01 16:22:27.276419",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7099977215203488",
+        "timestamp": "2025-11-01 16:22:27.276429",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.276479",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.276490",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.276708",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.276716",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.276747",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.276753",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6237263185269244",
+        "timestamp": "2025-11-01 16:22:27.276808",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7099977215203488",
+        "timestamp": "2025-11-01 16:22:27.276815",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.8030074055388048",
+        "timestamp": "2025-11-01 16:22:27.276843",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.6333759188359616",
+        "timestamp": "2025-11-01 16:22:27.276849",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277179",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277188",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277222",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277229",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.6237263185269244",
+        "timestamp": "2025-11-01 16:22:27.277305",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7099977215203488",
+        "timestamp": "2025-11-01 16:22:27.277312",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277341",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277347",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277401",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277408",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277437",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277443",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277519",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277526",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277569",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277576",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277644",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277652",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277679",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277686",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277737",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277743",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277771",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277777",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277824",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277831",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277858",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277864",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277937",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277944",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.277972",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.277979",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278043",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278050",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278078",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278084",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278227",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278234",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278264",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278271",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278359",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278365",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278394",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278400",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278472",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278478",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278506",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278513",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278571",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278578",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278606",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278613",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278685",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278692",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278721",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278727",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278777",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278784",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278811",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278818",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278882",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278889",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278917",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278923",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.278980",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.278987",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.279014",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.279020",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.279214",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.279226",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.279275",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.279284",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.279502",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.279512",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.279563",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.279573",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.279688",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.279698",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.279734",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.279741",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.279823",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.279830",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.279860",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.279866",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.279930",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.279937",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.279963",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.279969",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280041",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280048",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280074",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280080",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280128",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280134",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280159",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280165",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280211",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280217",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280242",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280248",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280293",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280299",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280325",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280330",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280375",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280381",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280406",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280412",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280600",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280610",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280649",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280664",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280734",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280741",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280770",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280776",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280858",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280865",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.280898",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.280911",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281006",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281013",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281041",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281047",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281097",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281104",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281129",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281141",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281224",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281230",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281257",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281263",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281309",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281316",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281341",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281346",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281429",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281437",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281465",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281471",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281555",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281562",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281590",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281595",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281789",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281797",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281829",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281836",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281936",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281944",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.281973",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.281980",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282034",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282040",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282067",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282074",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282149",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282163",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282193",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282199",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282296",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282302",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282329",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282335",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282381",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282387",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282413",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282418",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282495",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282501",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282530",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282536",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282595",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282602",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282628",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282634",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282729",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282736",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282775",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282782",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282943",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282951",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.282982",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.282988",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283075",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283081",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283109",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283115",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283178",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283185",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283213",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283219",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283268",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283275",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283301",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283307",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283353",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283360",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283386",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283392",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283477",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283483",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283510",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283516",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283621",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283628",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283654",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283660",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283724",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283731",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283758",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283764",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283833",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283840",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.283867",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.283873",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284065",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284077",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284108",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284115",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284187",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284198",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284287",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284294",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284352",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284359",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284386",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284392",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284478",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284485",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284514",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284521",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284588",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284595",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284624",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284631",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284718",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284725",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284752",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284759",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284808",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284814",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284841",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284847",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284919",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284933",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.284966",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.284972",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285023",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285030",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285057",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285063",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285294",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285302",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285334",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285341",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285410",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285424",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285458",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285465",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285534",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285557",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285592",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285598",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285692",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285699",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285728",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285734",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285810",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285817",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285845",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285851",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285899",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285906",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.285946",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.285952",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286025",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286032",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286058",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286064",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286125",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286131",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286169",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286175",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286225",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286232",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286257",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286263",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286461",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286468",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286511",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286518",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286585",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286592",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286620",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286626",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286705",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286713",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286741",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286747",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286810",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286817",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286844",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286850",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286924",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286931",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.286959",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.286965",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287020",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287026",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287052",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287057",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287105",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287111",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287138",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287151",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287208",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287214",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287242",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287247",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287319",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287326",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287353",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287359",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287550",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287558",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287589",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287595",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287676",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287683",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287711",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287717",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287813",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287820",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287848",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287854",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287908",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287921",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.287951",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.287958",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288042",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288049",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288076",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288082",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288185",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288192",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288222",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288228",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288279",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288286",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288313",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288319",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288392",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288406",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288437",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288443",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288518",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288524",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288557",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288564",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288725",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288732",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288762",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288768",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288832",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288839",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288865",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288871",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288937",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288944",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.288972",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.288978",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289064",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289071",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289099",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289105",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289178",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289187",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289216",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289223",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289286",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289293",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289319",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289325",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289454",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289461",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289490",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289496",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289602",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289608",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289639",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289645",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289735",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289742",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289770",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289776",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289922",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289930",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.289960",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.289966",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290031",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290037",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290065",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290071",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290154",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290161",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290188",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290194",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290265",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290272",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290299",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290306",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290375",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290381",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290408",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290414",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290461",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290467",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290493",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290499",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290558",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290565",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290593",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290599",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290670",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290676",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290707",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290713",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290783",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290790",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290816",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290822",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290950",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290957",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.290986",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.290992",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291040",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291046",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291072",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291078",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291151",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291158",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291204",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291211",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291264",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291270",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291297",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291303",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291349",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291356",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291385",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291391",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291459",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291466",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291494",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291500",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291570",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291577",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291604",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291610",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291693",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291700",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291728",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291734",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291783",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291790",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291822",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291828",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.291977",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.291984",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292013",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292019",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292096",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292103",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292130",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292136",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292221",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292229",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292256",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292262",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292324",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292331",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292368",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292375",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292440",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292447",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292474",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292480",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292577",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292584",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292614",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292620",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292695",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292709",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292744",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292750",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292829",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292836",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292863",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292869",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292917",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292923",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.292962",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.292969",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293125",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293139",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293181",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293188",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293250",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293256",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293284",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293290",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293380",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293386",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293427",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293434",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293488",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293494",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293525",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293531",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293590",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293597",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293628",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293634",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293701",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293713",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293751",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293760",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293840",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293846",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293874",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293880",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293940",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293947",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.293975",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.293981",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.294053",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.294059",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.294089",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.294095",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.294291",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.294300",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.294336",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.294343",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.294432",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.294441",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.294470",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.294476",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.294861",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.294869",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.294913",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.294920",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.294983",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.294997",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295031",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295037",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295089",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295095",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295122",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295128",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295189",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295203",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295235",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295242",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295319",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295326",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295358",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295364",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295444",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295453",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295482",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295487",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295559",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295566",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295593",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295599",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295795",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295802",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295832",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295838",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295939",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295946",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.295974",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.295980",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296032",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296038",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296064",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296070",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296118",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296124",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296167",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296174",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296228",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296241",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296276",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296282",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296338",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296345",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296371",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296379",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296441",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296447",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296478",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296484",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296537",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296552",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296580",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296586",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296691",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296697",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296730",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296736",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296907",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296915",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.296946",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.296953",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297006",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297012",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297038",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297044",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297113",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297120",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297160",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297166",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297272",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297279",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297307",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297313",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297384",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297390",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297429",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297435",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297486",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297492",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297518",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297524",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297585",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297593",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297620",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297626",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297727",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297734",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297761",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297767",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297833",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297842",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.297869",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.297875",
+        "reason": "manual"
+      },
+      {
+        "path": "strategies.alpha",
+        "old_value": "0.5",
+        "new_value": "0.590470317401954",
+        "timestamp": "2025-11-01 16:22:27.298061",
+        "reason": "real_batch_demo"
+      },
+      {
+        "path": "strategies.beta",
+        "old_value": "1.0",
+        "new_value": "0.7032003274658777",
+        "timestamp": "2025-11-01 16:22:27.298074",
+        "reason": "real_batch_demo"
+      }
+    ],
+    "telemetry": {
+      "total_generations": 20,
+      "generations_run": 20,
+      "final_fitness": -0.2902021273966172,
+      "best_fitness": -0.2902021273966172,
+      "total_improvement": 0.0,
+      "average_improvement_per_generation": 0.0,
+      "convergence_achieved": "True",
+      "mutation_strategy": "adaptive",
+      "crossover_strategy": "arithmetic",
+      "population_size": 20,
+      "edit_success_rate": 0.0,
+      "best_individual": {
+        "id": "ind_20251101_162227_7445",
+        "fitness": -0.2902021273966172,
+        "generation": 0,
+        "genome_summary": {
+          "edited_values": {
+            "type": "list",
+            "len": 2,
+            "sample": [
+              0.590470317401954,
+              0.7032003274658777
+            ]
+          }
+        }
+      },
+      "best_per_generation": [
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172,
+        -0.2902021273966172
+      ],
+      "avg_per_generation": [
+        -0.378062875764088,
+        -0.318563580336707,
+        -0.2919516160013397,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727,
+        -0.29020212739661727
+      ],
+      "std_per_generation": [
+        0.06946054164084582,
+        0.04465932377230835,
+        0.007625844030861057,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17,
+        5.551115123125783e-17
+      ],
+      "mutation_rate": 0.2,
+      "crossover_rate": 0.8,
+      "num_generations_configured": 25,
+      "run_start_time": "2025-11-01T16:22:27.274005",
+      "run_end_time": "2025-11-01T16:22:27.298055",
+      "run_time_seconds": 0.02405
+    }
+  },
+  "chromosomes": {
+    "strategies": {
+      "alpha": {
+        "name": "alpha",
+        "value": 0.590470317401954,
+        "param_type": "parameter",
+        "shape": null,
+        "constraints": null,
+        "last_modified": "2025-11-01T16:22:27.298060",
+        "edit_count": 1,
+        "frozen": false,
+        "importance_score": 0.5
+      },
+      "beta": {
+        "name": "beta",
+        "value": 0.7032003274658777,
+        "param_type": "parameter",
+        "shape": null,
+        "constraints": null,
+        "last_modified": "2025-11-01T16:22:27.298073",
+        "edit_count": 1,
+        "frozen": false,
+        "importance_score": 0.5
+      }
+    }
+  },
+  "current_parameters": {
+    "strategies.alpha": "0.590470317401954",
+    "strategies.beta": "0.7032003274658777"
+  }
+}

@@ -1,0 +1,8 @@
+boto3>=1.26
+botocore>=1.29
+cryptography>=3.4
+awscli>=1.22
+# Optional: localstack for local AWS testing (only for dev/CI)
+localstack>=1.0
+# Optional: fakeredis for running Redis-dependent tests locally
+fakeredis>=1.7

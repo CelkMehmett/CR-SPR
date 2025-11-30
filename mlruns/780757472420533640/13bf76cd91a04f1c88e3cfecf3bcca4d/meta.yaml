@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/780757472420533640/13bf76cd91a04f1c88e3cfecf3bcca4d/artifacts
+end_time: 1760172397612
+entry_point_name: ''
+experiment_id: '780757472420533640'
+lifecycle_stage: active
+run_id: 13bf76cd91a04f1c88e3cfecf3bcca4d
+run_name: popular-snail-906
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760172397599
+status: 3
+tags: []
+user_id: mehmetcelik

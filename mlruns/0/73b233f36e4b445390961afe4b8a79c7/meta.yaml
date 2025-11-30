@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/0/73b233f36e4b445390961afe4b8a79c7/artifacts
+end_time: 1762331295265
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 73b233f36e4b445390961afe4b8a79c7
+run_name: chill-owl-867
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762331295247
+status: 3
+tags: []
+user_id: mehmetcelik

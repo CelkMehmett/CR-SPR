@@ -1,0 +1,11 @@
+{
+  "sharpe_ratio": 2.45,
+  "sortino_ratio": 3.12,
+  "total_return": 0.856,
+  "annual_return": 0.425,
+  "max_drawdown": -0.145,
+  "volatility": 0.173,
+  "win_rate": 0.625,
+  "profit_factor": 2.34,
+  "total_trades": 87
+}

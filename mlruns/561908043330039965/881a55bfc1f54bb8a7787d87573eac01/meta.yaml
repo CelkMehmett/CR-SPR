@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/561908043330039965/881a55bfc1f54bb8a7787d87573eac01/artifacts
+end_time: 1760171067877
+entry_point_name: ''
+experiment_id: '561908043330039965'
+lifecycle_stage: active
+run_id: 881a55bfc1f54bb8a7787d87573eac01
+run_name: AAPL_arima_comprehensive
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760171067831
+status: 3
+tags: []
+user_id: mehmetcelik

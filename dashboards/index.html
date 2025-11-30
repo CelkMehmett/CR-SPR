@@ -1,0 +1,388 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard Index</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                min-height: 100vh;
+                padding: 40px 20px;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .header {
+                text-align: center;
+                color: white;
+                margin-bottom: 60px;
+            }
+            .header h1 {
+                font-size: 48px;
+                margin-bottom: 10px;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            }
+            .header p {
+                font-size: 18px;
+                opacity: 0.9;
+                margin-bottom: 5px;
+            }
+            .subheader {
+                font-size: 14px;
+                opacity: 0.7;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 30px;
+                margin-bottom: 60px;
+            }
+            .dashboard-card {
+                background: white;
+                border-radius: 12px;
+                padding: 40px 30px;
+                text-decoration: none;
+                color: #333;
+                box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+                transition: all 0.3s ease;
+                cursor: pointer;
+                position: relative;
+                overflow: hidden;
+            }
+            .dashboard-card::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+                transition: left 0.5s ease;
+            }
+            .dashboard-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 16px 48px rgba(0,0,0,0.2);
+            }
+            .dashboard-card:hover::before {
+                left: 100%;
+            }
+            .dashboard-card h2 {
+                font-size: 32px;
+                margin-bottom: 10px;
+                color: #667eea;
+            }
+            .dashboard-card p {
+                font-size: 16px;
+                color: #666;
+                margin-bottom: 15px;
+            }
+            .arrow {
+                display: inline-block;
+                font-size: 24px;
+                transition: transform 0.3s ease;
+            }
+            .dashboard-card:hover .arrow {
+                transform: translateX(5px);
+            }
+            .features {
+                background: rgba(255,255,255,0.1);
+                color: white;
+                padding: 40px;
+                border-radius: 12px;
+                margin-bottom: 40px;
+            }
+            .features h3 {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .features-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 20px;
+            }
+            .feature {
+                background: rgba(255,255,255,0.1);
+                padding: 15px;
+                border-radius: 8px;
+            }
+            .feature strong {
+                display: block;
+                margin-bottom: 5px;
+            }
+            .footer {
+                text-align: center;
+                color: white;
+                opacity: 0.8;
+                font-size: 14px;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid rgba(255,255,255,0.2);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>🧬 CRISPR AI Trading Strategies</h1>
+                <p>Visual Analytics Dashboard</p>
+                <p class="subheader">Multi-Strategy Performance Analysis with Genetic Algorithm Optimization</p>
+            </div>
+
+            <div class="features">
+                <h3>📊 Dashboard Features</h3>
+                <div class="features-grid">
+                    <div class="feature">
+                        <strong>📈 Equity Curves</strong>
+                        <span>Track cumulative portfolio value over time</span>
+                    </div>
+                    <div class="feature">
+                        <strong>📊 Performance Metrics</strong>
+                        <span>Sharpe, Sortino, Calmar, drawdown, win rate</span>
+                    </div>
+                    <div class="feature">
+                        <strong>🎯 Signals Heatmap</strong>
+                        <span>Visualize trading signals across all strategies</span>
+                    </div>
+                    <div class="feature">
+                        <strong>📉 Drawdown Analysis</strong>
+                        <span>Underwater plot showing peak-to-trough declines</span>
+                    </div>
+                    <div class="feature">
+                        <strong>📈 Rolling Sharpe</strong>
+                        <span>60-day rolling risk-adjusted return metrics</span>
+                    </div>
+                    <div class="feature">
+                        <strong>🧬 GA Optimization</strong>
+                        <span>Genetically optimized strategy weights</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid">
+                
+        <a href="aapl_dashboard.html" class="dashboard-card">
+            <h2>AAPL</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="msft_dashboard.html" class="dashboard-card">
+            <h2>MSFT</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="googl_dashboard.html" class="dashboard-card">
+            <h2>GOOGL</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="amzn_dashboard.html" class="dashboard-card">
+            <h2>AMZN</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="meta_dashboard.html" class="dashboard-card">
+            <h2>META</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="nvda_dashboard.html" class="dashboard-card">
+            <h2>NVDA</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="tsla_dashboard.html" class="dashboard-card">
+            <h2>TSLA</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="brk-b_dashboard.html" class="dashboard-card">
+            <h2>BRK-B</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="jpm_dashboard.html" class="dashboard-card">
+            <h2>JPM</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="v_dashboard.html" class="dashboard-card">
+            <h2>V</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="ma_dashboard.html" class="dashboard-card">
+            <h2>MA</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="pg_dashboard.html" class="dashboard-card">
+            <h2>PG</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="jnj_dashboard.html" class="dashboard-card">
+            <h2>JNJ</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="unh_dashboard.html" class="dashboard-card">
+            <h2>UNH</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="hd_dashboard.html" class="dashboard-card">
+            <h2>HD</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="dis_dashboard.html" class="dashboard-card">
+            <h2>DIS</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="bac_dashboard.html" class="dashboard-card">
+            <h2>BAC</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="pfe_dashboard.html" class="dashboard-card">
+            <h2>PFE</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="ko_dashboard.html" class="dashboard-card">
+            <h2>KO</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="nflx_dashboard.html" class="dashboard-card">
+            <h2>NFLX</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="xom_dashboard.html" class="dashboard-card">
+            <h2>XOM</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="cvx_dashboard.html" class="dashboard-card">
+            <h2>CVX</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="cmcsa_dashboard.html" class="dashboard-card">
+            <h2>CMCSA</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="vz_dashboard.html" class="dashboard-card">
+            <h2>VZ</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="orcl_dashboard.html" class="dashboard-card">
+            <h2>ORCL</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="intc_dashboard.html" class="dashboard-card">
+            <h2>INTC</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="csco_dashboard.html" class="dashboard-card">
+            <h2>CSCO</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="abt_dashboard.html" class="dashboard-card">
+            <h2>ABT</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="nke_dashboard.html" class="dashboard-card">
+            <h2>NKE</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+
+        <a href="mcd_dashboard.html" class="dashboard-card">
+            <h2>MCD</h2>
+            <p>View detailed analysis and strategy performance</p>
+            <span class="arrow">→</span>
+        </a>
+        
+            </div>
+
+            <div class="footer">
+                <p>CRISPR AI Trading System | Powered by Genetic Algorithm Strategy Optimization</p>
+                <p>Past performance does not guarantee future results. For educational purposes only.</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    

@@ -1,0 +1,70 @@
+pandas>=1.3
+numpy>=1.21
+scipy>=1.7
+scikit-learn>=1.0
+pygad>=2.18
+matplotlib>=3.4
+joblib>=1.1
+# 🧬 CRISPR-FinAI Requirements
+# Bio-inspired Adaptive Financial Intelligence System Dependencies
+
+# Core Scientific Computing
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Machine Learning & AI
+scikit-learn>=1.0.0
+torch>=1.12.0
+torchvision>=0.13.0
+
+# Financial Data
+yfinance>=0.1.70
+
+# Genetic Algorithms & Optimization
+deap>=1.3.1
+
+# Reinforcement Learning (for future RL agent development)
+# ray[rllib]>=2.0.0  # Uncomment when implementing RL components
+
+# Data Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Jupyter Notebook Support
+jupyter>=1.0.0
+jupyterlab>=3.0.0
+ipywidgets>=7.6.0
+
+# Web Framework (for API interface)
+fastapi>=0.70.0
+uvicorn>=0.15.0
+
+# Utility Libraries
+tqdm>=4.62.0
+pyyaml>=6.0
+python-dateutil>=2.8.0
+pytz>=2021.3
+tenacity>=8.0.1
+redis>=4.5.0
+fakeredis>=1.7.0
+
+# Explainable AI
+shap>=0.40.0
+
+# Development Tools
+pytest>=6.2.0
+black>=21.9.0
+flake8>=4.0.0
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Logging and Configuration
+loguru>=0.5.3
+
+# Optional: Enhanced Performance
+# numba>=0.56.0  # Uncomment for JIT compilation acceleration
+# cupy-cuda11x>=9.0.0  # Uncomment for GPU acceleration (requires CUDA)yfinance

@@ -1,0 +1,4 @@
+2025-10-11 19:18:24,411 INFO Opening DB rl_checkpoints.db
+2025-10-11 19:18:24,414 INFO Found 2 checkpoints to re-encrypt
+2025-10-11 19:18:24,415 INFO Would update id=1 name=exp1
+2025-10-11 19:18:24,415 INFO Would update id=2 name=exp1_copy

@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/780757472420533640/caafd18dbe3447d3bb63620fd7e20f4d/artifacts
+end_time: 1760172409707
+entry_point_name: ''
+experiment_id: '780757472420533640'
+lifecycle_stage: active
+run_id: caafd18dbe3447d3bb63620fd7e20f4d
+run_name: calm-flea-775
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760172409692
+status: 3
+tags: []
+user_id: mehmetcelik

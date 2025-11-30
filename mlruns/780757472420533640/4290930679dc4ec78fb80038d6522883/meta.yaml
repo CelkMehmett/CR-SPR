@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/780757472420533640/4290930679dc4ec78fb80038d6522883/artifacts
+end_time: 1760172397394
+entry_point_name: ''
+experiment_id: '780757472420533640'
+lifecycle_stage: active
+run_id: 4290930679dc4ec78fb80038d6522883
+run_name: charming-bird-685
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760172397382
+status: 3
+tags: []
+user_id: mehmetcelik

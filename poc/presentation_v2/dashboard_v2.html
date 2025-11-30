@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRISPR-FinAI: Enhanced Dashboard v2.0</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 50px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        .header h1 {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1;
+        }
+        .header .subtitle {
+            font-size: 1.4em;
+            opacity: 0.95;
+            position: relative;
+            z-index: 1;
+        }
+        .header .version {
+            font-size: 0.9em;
+            margin-top: 10px;
+            opacity: 0.8;
+            position: relative;
+            z-index: 1;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            padding: 50px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .stat-card {
+            background: white;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 4px solid #667eea;
+        }
+        .stat-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+        }
+        .stat-value {
+            font-size: 3em;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 15px 0;
+        }
+        .stat-label {
+            font-size: 1.1em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 600;
+        }
+        .section {
+            padding: 50px;
+        }
+        .section h2 {
+            font-size: 2.2em;
+            margin-bottom: 30px;
+            color: #1e3c72;
+            border-bottom: 4px solid #667eea;
+            padding-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .section h2::before {
+            content: '▸';
+            margin-right: 15px;
+            color: #667eea;
+        }
+        .chart-container {
+            margin: 40px 0;
+            text-align: center;
+        }
+        .chart-container img {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+        .chart-container img:hover {
+            transform: scale(1.02);
+        }
+        .highlight-box {
+            background: linear-gradient(120deg, #ffeaa7 0%, #fdcb6e 100%);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            border-left: 6px solid #f39c12;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .highlight-box h3 {
+            margin-bottom: 15px;
+            color: #d35400;
+        }
+        .highlight-box p {
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+        .podium {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .podium-item {
+            text-align: center;
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+            min-width: 250px;
+        }
+        .podium-item:hover {
+            transform: translateY(-10px);
+        }
+        .podium-1 {
+            background: linear-gradient(135deg, #f39c12 0%, #f1c40f 100%);
+            color: white;
+            order: 2;
+            padding: 50px 30px;
+        }
+        .podium-2 {
+            background: linear-gradient(135deg, #bdc3c7 0%, #95a5a6 100%);
+            color: white;
+            order: 1;
+        }
+        .podium-3 {
+            background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+            color: white;
+            order: 3;
+        }
+        .podium-rank {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .podium-model {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .podium-score {
+            font-size: 1.8em;
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        td {
+            padding: 15px 18px;
+            border-bottom: 1px solid #eee;
+        }
+        tr:hover {
+            background: #f8f9fa;
+        }
+        .positive {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .negative {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        .badge-gold {
+            background: #f39c12;
+            color: white;
+        }
+        .badge-silver {
+            background: #95a5a6;
+            color: white;
+        }
+        .badge-bronze {
+            background: #e67e22;
+            color: white;
+        }
+        .badge-success {
+            background: #27ae60;
+            color: white;
+        }
+        .footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 1em;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        .insight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .insight-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-left: 5px solid #667eea;
+        }
+        .insight-card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        .insight-card p {
+            line-height: 1.6;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧬 CRISPR-FinAI Dashboard v2.0</h1>
+            <p class="subtitle">Enhanced Self-Healing Trading System with Advanced Analytics</p>
+            <p class="version">Generated: 2025-10-10 18:45:26 | Full Risk Analysis Enabled</p>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Models Tested</div>
+                <div class="stat-value">9</div>
+                <p style="margin-top: 10px; color: #888;">Symbol-Model Pairs</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Improvements</div>
+                <div class="stat-value" style="background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">6</div>
+                <p style="margin-top: 10px; color: #888;">GA Wins</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Avg Sharpe Δ</div>
+                <div class="stat-value" style="background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">+0.060</div>
+                <p style="margin-top: 10px; color: #888;">Mean Improvement</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Best Gain</div>
+                <div class="stat-value" style="background: linear-gradient(135deg, #f39c12 0%, #f1c40f 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">+0.700</div>
+                <p style="margin-top: 10px; color: #888;">AMZN naive_mo</p>
+            </div>
+        </div>
+        
+        <div class="highlight-box">
+            <h3>🏆 Champion Performance</h3>
+            <p>
+                <strong>AMZN</strong> using <strong>naive_momentum</strong> 
+                achieved a Sharpe improvement of <span class="positive">+0.700</span> 
+                (0.801 → 1.501)
+                representing a <strong>+87.4%</strong> enhancement.
+            </p>
+        </div>
+        
+        <div class="section">
+            <h2>🏅 Top 3 Models (Composite Score)</h2>
+            <div class="podium">
+                <div class="podium-item podium-2">
+                    <div class="podium-rank">🥈 2nd</div>
+                    <div class="podium-model">MSFT<br>naive_momentum</div>
+                    <div class="podium-score">37564.781</div>
+                </div>
+                <div class="podium-item podium-1">
+                    <div class="podium-rank">🥇 1st</div>
+                    <div class="podium-model">AAPL<br>naive_momentum</div>
+                    <div class="podium-score">11313747866.890</div>
+                </div>
+                <div class="podium-item podium-3">
+                    <div class="podium-rank">🥉 3rd</div>
+                    <div class="podium-model">AMZN<br>naive_momentum</div>
+                    <div class="podium-score">285.337</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📊 Performance Comparison</h2>
+            <div class="chart-container">
+                <img src="presentation_v2/comparison.png" alt="Comparison Chart">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📈 Equity Curves: Baseline vs GA-Optimized</h2>
+            <div class="chart-container">
+                <img src="presentation_v2/equity_curves.png" alt="Equity Curves">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>⚠️ Risk Metrics Analysis</h2>
+            <div class="chart-container">
+                <img src="presentation_v2/risk_metrics.png" alt="Risk Metrics">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🏆 Model Ranking & Consistency</h2>
+            <div class="chart-container">
+                <img src="presentation_v2/ranking.png" alt="Model Ranking">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🔥 Performance Heatmaps</h2>
+            <div class="chart-container">
+                <img src="presentation_v2/heatmaps.png" alt="Performance Heatmaps">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>💡 Key Insights</h2>
+            <div class="insight-grid">
+                <div class="insight-card">
+                    <h4>🧬 Self-Healing Architecture</h4>
+                    <p>Drift detection triggers adaptive parameter optimization using genetic algorithms, ensuring models stay performant in changing market conditions.</p>
+                </div>
+                <div class="insight-card">
+                    <h4>📊 Multi-Metric Optimization</h4>
+                    <p>GA optimization targets Sharpe ratio while maintaining acceptable risk levels (Sortino, max drawdown, win rate).</p>
+                </div>
+                <div class="insight-card">
+                    <h4>🎯 Model Diversity</h4>
+                    <p>Ensemble includes naive momentum, ARIMA time-series, RandomForest ML, and CRISPR-adaptive strategies for robust performance.</p>
+                </div>
+                <div class="insight-card">
+                    <h4>✅ Production-Ready</h4>
+                    <p>Modular architecture with unit tests, JSONL audit logs, and comprehensive error handling ensures deployment readiness.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📋 Live Leaderboard (MLflow)</h2>
+            <div class="insight-grid">
+                <div class="insight-card" style="min-height:200px;">
+                    <h4>Top Models by Sharpe</h4>
+                    <div id="mlflow-leaderboard">
+                        <p style="color:#666;">Loading leaderboard...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>CRISPR-FinAI v2.0</strong> | Enhanced Self-Healing Trading System</p>
+            <p style="margin-top: 10px; opacity: 0.9;">Powered by Genetic Algorithms, Drift Detection & Advanced Risk Analytics</p>
+            <p style="margin-top: 5px; opacity: 0.7; font-size: 0.9em;">© 2025 | All metrics calculated with walk-forward validation</p>
+        </div>
+    </div>
+    <script>
+        // Fetch MLflow public leaderboard and render a small table
+        async function fetchLeaderboard(metric='sharpe_ratio', top_n=5) {
+            const container = document.getElementById('mlflow-leaderboard');
+            container.innerHTML = '<p style="color:#666;">Loading leaderboard...</p>';
+            try {
+                const res = await fetch('/public/mlflow/leaderboard?metric=' + encodeURIComponent(metric) + '&top_n=' + top_n);
+                if (!res.ok) throw new Error('API error ' + res.status);
+                const data = await res.json();
+                const rows = data.results || [];
+                if (rows.length === 0) {
+                    container.innerHTML = '<p style="color:#666;">No leaderboard data available.</p>';
+                    return;
+                }
+
+                let html = '<table><thead><tr><th>Rank</th><th>Symbol</th><th>Model</th><th>' + metric.toUpperCase() + '</th><th>Return</th></tr></thead><tbody>';
+                rows.forEach((r, idx) => {
+                    const metricVal = (r.metric !== null && r.metric !== undefined) ? Number(r.metric).toFixed(3) : '—';
+                    const ret = (r.total_return !== null && r.total_return !== undefined) ? Number(r.total_return).toFixed(2) : '—';
+                    html += `<tr><td>${idx+1}</td><td>${r.symbol || '—'}</td><td>${r.model || '—'}</td><td>${metricVal}</td><td>${ret}</td></tr>`;
+                });
+                html += '</tbody></table>';
+                container.innerHTML = html;
+            } catch (err) {
+                container.innerHTML = '<p style="color:#e74c3c;">Error loading leaderboard: ' + String(err) + '</p>';
+            }
+        }
+
+        // initial fetch
+        fetchLeaderboard('sharpe_ratio', 5);
+
+        // refresh leaderboard every 30s
+        setInterval(() => fetchLeaderboard('sharpe_ratio', 5), 30000);
+    </script>
+</body>
+</html>

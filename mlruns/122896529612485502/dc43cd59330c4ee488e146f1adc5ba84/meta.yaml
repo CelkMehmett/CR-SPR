@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/122896529612485502/dc43cd59330c4ee488e146f1adc5ba84/artifacts
+end_time: 1760170965861
+entry_point_name: ''
+experiment_id: '122896529612485502'
+lifecycle_stage: active
+run_id: dc43cd59330c4ee488e146f1adc5ba84
+run_name: GOOGL_mean_reversion_walkforward
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760170965811
+status: 3
+tags: []
+user_id: mehmetcelik

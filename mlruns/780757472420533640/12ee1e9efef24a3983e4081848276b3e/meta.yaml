@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/780757472420533640/12ee1e9efef24a3983e4081848276b3e/artifacts
+end_time: 1760172403570
+entry_point_name: ''
+experiment_id: '780757472420533640'
+lifecycle_stage: active
+run_id: 12ee1e9efef24a3983e4081848276b3e
+run_name: puzzled-duck-205
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760172403551
+status: 3
+tags: []
+user_id: mehmetcelik

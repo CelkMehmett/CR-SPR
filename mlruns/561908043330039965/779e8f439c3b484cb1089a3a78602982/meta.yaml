@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/561908043330039965/779e8f439c3b484cb1089a3a78602982/artifacts
+end_time: 1760171071228
+entry_point_name: ''
+experiment_id: '561908043330039965'
+lifecycle_stage: active
+run_id: 779e8f439c3b484cb1089a3a78602982
+run_name: AAPL_random_forest_comprehensive
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760171071177
+status: 3
+tags: []
+user_id: mehmetcelik
