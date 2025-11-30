@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRISPR-FinAI - Real-time Monitor</title>
+    <style>
+        :root {
+            --bg-primary: #0a0e27;
+            --bg-secondary: #1a1f3a;
+            --bg-card: #252b4a;
+            --text-primary: #e0e0e0;
+            --text-secondary: #a0a0a0;
+            --accent: #00d9ff;
+            --accent-glow: rgba(0, 217, 255, 0.3);
+            --success: #00ff88;
+            --warning: #ffaa00;
+            --danger: #ff3366;
+            --border: #404560;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f5f7fa;
+            --bg-secondary: #ffffff;
+            --bg-card: #ffffff;
+            --text-primary: #2c3e50;
+            --text-secondary: #7f8c8d;
+            --accent: #0066cc;
+            --accent-glow: rgba(0, 102, 204, 0.2);
+            --success: #27ae60;
+            --warning: #f39c12;
+            --danger: #e74c3c;
+            --border: #e1e8ed;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: var(--bg-card);
+            border-radius: 15px;
+            border: 1px solid var(--border);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: var(--accent);
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px var(--accent-glow);
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            animation: pulse 2s infinite;
+        }
+
+        .status-healthy { background: var(--success); color: white; }
+        .status-warning { background: var(--warning); color: white; }
+        .status-critical { background: var(--danger); color: white; }
+        .status-unknown { background: var(--text-secondary); color: white; }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .control-btn {
+            padding: 12px 24px;
+            border: 2px solid var(--accent);
+            background: var(--bg-card);
+            color: var(--accent);
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .control-btn:hover {
+            background: var(--accent);
+            color: white;
+            box-shadow: 0 0 20px var(--accent-glow);
+        }
+
+        .control-btn.active {
+            background: var(--accent);
+            color: white;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .models-container {
+            background: var(--bg-card);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 30px;
+        }
+
+        .models-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .model-card {
+            background: var(--bg-secondary);
+            padding: 15px;
+            border-radius: 8px;
+            border: 2px solid var(--border);
+            transition: all 0.3s ease;
+        }
+
+        .model-card.normal {
+            border-color: var(--success);
+        }
+
+        .model-card.healing {
+            border-color: var(--warning);
+        }
+
+        .model-card.drift {
+            border-color: var(--danger);
+            animation: shake 0.5s infinite;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-3px); }
+            75% { transform: translateX(3px); }
+        }
+
+        .model-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .model-name {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .model-status {
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+        .model-metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .metric {
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        .metric-label {
+            font-size: 0.8em;
+            color: var(--text-secondary);
+        }
+
+        .chart-container {
+            background: var(--bg-card);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 20px;
+        }
+
+        .connection-status {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            z-index: 1000;
+        }
+
+        .connected {
+            background: var(--success);
+            color: white;
+        }
+
+        .disconnected {
+            background: var(--danger);
+            color: white;
+        }
+
+        .log-container {
+            background: var(--bg-card);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .log-entry {
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .log-info { background: rgba(0, 217, 255, 0.1); }
+        .log-warning { background: rgba(255, 170, 0, 0.1); }
+        .log-error { background: rgba(255, 51, 102, 0.1); }
+
+        canvas {
+            max-width: 100%;
+            height: 300px !important;
+        }
+
+        .theme-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: var(--accent);
+            border: none;
+            cursor: pointer;
+            font-size: 1.5em;
+            box-shadow: 0 4px 15px var(--accent-glow);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="connection-status disconnected" id="connectionStatus">
+        ⚠️ Disconnected
+    </div>
+
+    <div class="header">
+        <h1>🔴 LIVE PERFORMANCE MONITOR</h1>
+        <p>Real-time Model Performance Tracking</p>
+        <div style="margin-top: 15px;">
+            <span class="status-badge status-unknown" id="systemStatus">Initializing...</span>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button class="control-btn active" onclick="toggleAutoRefresh()">
+            <span id="autoRefreshIcon">⏸️</span> Auto-Refresh
+        </button>
+        <button class="control-btn" onclick="clearLogs()">🗑️ Clear Logs</button>
+        <button class="control-btn" onclick="reconnectWebSocket()">🔄 Reconnect</button>
+        <button class="control-btn" onclick="exportMetrics()">💾 Export</button>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-label">Total Models</div>
+            <div class="stat-value" id="totalModels">0</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">Healthy Models</div>
+            <div class="stat-value" style="color: var(--success);" id="healthyModels">0</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">Drifting Models</div>
+            <div class="stat-value" style="color: var(--danger);" id="driftingModels">0</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">Avg Sharpe Ratio</div>
+            <div class="stat-value" style="color: var(--accent);" id="avgSharpe">0.00</div>
+        </div>
+    </div>
+
+    <div class="models-container">
+        <h2>📊 Active Models</h2>
+        <div class="models-grid" id="modelsGrid">
+            <!-- Models will be inserted here -->
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>📈 Performance Timeline</h2>
+        <canvas id="performanceChart"></canvas>
+    </div>
+
+    <div class="log-container">
+        <h2>📋 System Log</h2>
+        <div id="logEntries">
+            <div class="log-entry log-info">🚀 Initializing monitoring system...</div>
+        </div>
+    </div>
+
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">🌓</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // WebSocket connection
+        let ws = null;
+        let autoRefresh = true;
+        let performanceData = [];
+        let chart = null;
+
+        // Initialize chart
+        const ctx = document.getElementById('performanceChart').getContext('2d');
+        chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: []
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: {
+                            color: getComputedStyle(document.documentElement)
+                                .getPropertyValue('--text-primary')
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        grid: {
+                            color: 'rgba(64, 69, 96, 0.3)'
+                        },
+                        ticks: {
+                            color: getComputedStyle(document.documentElement)
+                                .getPropertyValue('--text-secondary')
+                        }
+                    },
+                    x: {
+                        grid: {
+                            color: 'rgba(64, 69, 96, 0.3)'
+                        },
+                        ticks: {
+                            color: getComputedStyle(document.documentElement)
+                                .getPropertyValue('--text-secondary')
+                        }
+                    }
+                }
+            }
+        });
+
+        function connectWebSocket() {
+            addLog('🔌 Connecting to monitoring server...', 'info');
+            
+            ws = new WebSocket('ws://localhost:8765');
+            
+            ws.onopen = () => {
+                document.getElementById('connectionStatus').textContent = '✅ Connected';
+                document.getElementById('connectionStatus').className = 'connection-status connected';
+                addLog('✅ Connected to monitoring server', 'info');
+            };
+            
+            ws.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+                handleServerMessage(data);
+            };
+            
+            ws.onerror = (error) => {
+                addLog('❌ WebSocket error occurred', 'error');
+            };
+            
+            ws.onclose = () => {
+                document.getElementById('connectionStatus').textContent = '⚠️ Disconnected';
+                document.getElementById('connectionStatus').className = 'connection-status disconnected';
+                addLog('⚠️ Disconnected from server', 'warning');
+                
+                // Auto-reconnect after 5 seconds
+                if (autoRefresh) {
+                    setTimeout(connectWebSocket, 5000);
+                }
+            };
+        }
+
+        function handleServerMessage(data) {
+            if (data.type === 'initial_state') {
+                addLog('📦 Received initial state', 'info');
+                updateHealth(data.health);
+                updateModels(data.recent_metrics);
+            } else if (data.type === 'performance_update') {
+                updateHealth(data.health);
+                updateModels(data.metrics);
+                updateChart(data.metrics);
+            }
+        }
+
+        function updateHealth(health) {
+            document.getElementById('totalModels').textContent = health.total_models;
+            document.getElementById('healthyModels').textContent = health.models_healthy;
+            document.getElementById('driftingModels').textContent = health.models_drifting;
+            document.getElementById('avgSharpe').textContent = health.avg_sharpe.toFixed(2);
+            
+            const statusBadge = document.getElementById('systemStatus');
+            statusBadge.textContent = health.status.toUpperCase();
+            statusBadge.className = `status-badge status-${health.status}`;
+        }
+
+        function updateModels(metrics) {
+            const grid = document.getElementById('modelsGrid');
+            
+            // Group by model
+            const modelMap = new Map();
+            metrics.forEach(m => {
+                const key = `${m.symbol}_${m.model}`;
+                modelMap.set(key, m);
+            });
+            
+            grid.innerHTML = '';
+            
+            modelMap.forEach((metric, key) => {
+                const card = document.createElement('div');
+                card.className = `model-card ${metric.status}`;
+                
+                card.innerHTML = `
+                    <div class="model-header">
+                        <div class="model-name">${metric.symbol} - ${metric.model}</div>
+                        <div class="model-status" style="background: ${getStatusColor(metric.status)};">
+                            ${metric.status.toUpperCase()}
+                        </div>
+                    </div>
+                    <div class="model-metrics">
+                        <div class="metric">
+                            <div class="metric-value" style="color: var(--accent);">
+                                ${metric.sharpe_ratio.toFixed(2)}
+                            </div>
+                            <div class="metric-label">Sharpe</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" style="color: ${metric.returns >= 0 ? 'var(--success)' : 'var(--danger)'};">
+                                ${metric.returns.toFixed(2)}%
+                            </div>
+                            <div class="metric-label">Returns</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">${(metric.volatility * 100).toFixed(1)}%</div>
+                            <div class="metric-label">Volatility</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value" style="color: var(--warning);">
+                                ${metric.drift_score.toFixed(3)}
+                            </div>
+                            <div class="metric-label">Drift</div>
+                        </div>
+                    </div>
+                `;
+                
+                grid.appendChild(card);
+            });
+            
+            if (metrics.length > 0 && metrics.some(m => m.status === 'drift')) {
+                addLog(`⚠️ Drift detected in ${metrics.filter(m => m.status === 'drift').length} model(s)`, 'warning');
+            }
+        }
+
+        function updateChart(metrics) {
+            // Update chart with latest metrics
+            const timestamp = new Date().toLocaleTimeString();
+            
+            if (chart.data.labels.length > 20) {
+                chart.data.labels.shift();
+                chart.data.datasets.forEach(ds => ds.data.shift());
+            }
+            
+            chart.data.labels.push(timestamp);
+            
+            // Group by model
+            const modelMap = new Map();
+            metrics.forEach(m => {
+                const key = `${m.symbol}_${m.model}`;
+                if (!modelMap.has(key)) {
+                    modelMap.set(key, []);
+                }
+                modelMap.get(key).push(m);
+            });
+            
+            // Add/update datasets
+            modelMap.forEach((data, key) => {
+                let dataset = chart.data.datasets.find(ds => ds.label === key);
+                
+                if (!dataset) {
+                    const color = getRandomColor();
+                    dataset = {
+                        label: key,
+                        data: [],
+                        borderColor: color,
+                        backgroundColor: color + '33',
+                        tension: 0.4
+                    };
+                    chart.data.datasets.push(dataset);
+                }
+                
+                const avgSharpe = data.reduce((sum, m) => sum + m.sharpe_ratio, 0) / data.length;
+                dataset.data.push(avgSharpe);
+            });
+            
+            chart.update('none'); // Update without animation for performance
+        }
+
+        function getStatusColor(status) {
+            const colors = {
+                normal: 'var(--success)',
+                healing: 'var(--warning)',
+                drift: 'var(--danger)'
+            };
+            return colors[status] || 'var(--text-secondary)';
+        }
+
+        function getRandomColor() {
+            const colors = [
+                '#00d9ff', '#00ff88', '#ffaa00', '#ff3366', 
+                '#9d4edd', '#06ffa5', '#ffd60a', '#f72585'
+            ];
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        function addLog(message, type = 'info') {
+            const logEntries = document.getElementById('logEntries');
+            const entry = document.createElement('div');
+            entry.className = `log-entry log-${type}`;
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            logEntries.insertBefore(entry, logEntries.firstChild);
+            
+            // Keep only last 100 logs
+            while (logEntries.children.length > 100) {
+                logEntries.removeChild(logEntries.lastChild);
+            }
+        }
+
+        function toggleAutoRefresh() {
+            autoRefresh = !autoRefresh;
+            document.getElementById('autoRefreshIcon').textContent = autoRefresh ? '⏸️' : '▶️';
+            event.target.classList.toggle('active');
+            addLog(`Auto-refresh ${autoRefresh ? 'enabled' : 'disabled'}`, 'info');
+        }
+
+        function clearLogs() {
+            document.getElementById('logEntries').innerHTML = '';
+            addLog('Logs cleared', 'info');
+        }
+
+        function reconnectWebSocket() {
+            if (ws) {
+                ws.close();
+            }
+            connectWebSocket();
+        }
+
+        function exportMetrics() {
+            addLog('📥 Exporting metrics...', 'info');
+            // In production, this would export real data
+            alert('Export functionality will download metrics to CSV');
+        }
+
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            // Update chart colors
+            chart.options.plugins.legend.labels.color = 
+                getComputedStyle(document.documentElement).getPropertyValue('--text-primary');
+            chart.options.scales.y.ticks.color = 
+                getComputedStyle(document.documentElement).getPropertyValue('--text-secondary');
+            chart.options.scales.x.ticks.color = 
+                getComputedStyle(document.documentElement).getPropertyValue('--text-secondary');
+            chart.update();
+        }
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+
+        // Connect on load
+        connectWebSocket();
+    </script>
+</body>
+</html>

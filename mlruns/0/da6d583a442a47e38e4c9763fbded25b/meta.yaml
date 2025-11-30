@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/0/da6d583a442a47e38e4c9763fbded25b/artifacts
+end_time: 1762331262918
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: da6d583a442a47e38e4c9763fbded25b
+run_name: nosy-tern-435
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762331262905
+status: 3
+tags: []
+user_id: mehmetcelik

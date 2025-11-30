@@ -1,0 +1,17 @@
+{
+  "n_periods": 8,
+  "avg_sharpe": 2.15,
+  "std_sharpe": 0.45,
+  "consistency": 0.875,
+  "total_return": 0.645,
+  "periods": [
+    {
+      "sharpe_ratio": 2.3,
+      "total_return": 0.12
+    },
+    {
+      "sharpe_ratio": 1.9,
+      "total_return": 0.08
+    }
+  ]
+}

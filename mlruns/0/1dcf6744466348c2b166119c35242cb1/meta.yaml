@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/0/1dcf6744466348c2b166119c35242cb1/artifacts
+end_time: 1762416356435
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1dcf6744466348c2b166119c35242cb1
+run_name: bright-grouse-596
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762416356425
+status: 3
+tags: []
+user_id: mehmetcelik

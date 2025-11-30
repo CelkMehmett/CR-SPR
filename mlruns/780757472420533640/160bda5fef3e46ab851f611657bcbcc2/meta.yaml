@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/780757472420533640/160bda5fef3e46ab851f611657bcbcc2/artifacts
+end_time: 1760172412315
+entry_point_name: ''
+experiment_id: '780757472420533640'
+lifecycle_stage: active
+run_id: 160bda5fef3e46ab851f611657bcbcc2
+run_name: redolent-shark-857
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760172412303
+status: 3
+tags: []
+user_id: mehmetcelik

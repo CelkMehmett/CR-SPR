@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-11-05T11:53:05.707617",
+  "single_symbol_result": {
+    "ranking": [
+      [
+        "MACD",
+        0.061717953335638426
+      ],
+      [
+        "AdaptiveRisk",
+        0.0418776253030871
+      ],
+      [
+        "Momentum",
+        0.025518061813015486
+      ],
+      [
+        "MeanReversion",
+        0.004871008940427038
+      ],
+      [
+        "Ensemble",
+        0.002671006721515241
+      ]
+    ],
+    "results_summary": {
+      "Momentum": {
+        "total_return": 0.0749381929215549,
+        "sharpe_ratio": 0.025518061813015486,
+        "max_drawdown": 0.3735535545055555,
+        "win_rate": 0.3968253968253968,
+        "num_trades": "70",
+        "strategy_name": "Momentum",
+        "avg_confidence": 0.719047619047619
+      },
+      "MeanReversion": {
+        "total_return": 0.002838859216409473,
+        "sharpe_ratio": 0.004871008940427038,
+        "max_drawdown": 0.08645707804945302,
+        "win_rate": 0.051587301587301584,
+        "num_trades": "33",
+        "strategy_name": "MeanReversion",
+        "avg_confidence": 0.5201864840590388
+      },
+      "MACD": {
+        "total_return": 0.07992185154644238,
+        "sharpe_ratio": 0.061717953335638426,
+        "max_drawdown": 0.1489422216081847,
+        "win_rate": 0.047619047619047616,
+        "num_trades": "41",
+        "strategy_name": "MACD",
+        "avg_confidence": 0.540883165696263
+      },
+      "Ensemble": {
+        "total_return": 0.0005471700508232757,
+        "sharpe_ratio": 0.002671006721515241,
+        "max_drawdown": 0.011587188447263586,
+        "win_rate": 0.007936507936507936,
+        "num_trades": "9",
+        "strategy_name": "Ensemble",
+        "avg_confidence": 0.5975608578587492
+      },
+      "AdaptiveRisk": {
+        "total_return": 0.13402702847998738,
+        "sharpe_ratio": 0.0418776253030871,
+        "max_drawdown": 0.3735535545055555,
+        "win_rate": 0.2976190476190476,
+        "num_trades": "59",
+        "strategy_name": "AdaptiveRisk",
+        "avg_confidence": 0.719047619047619
+      }
+    }
+  }
+}

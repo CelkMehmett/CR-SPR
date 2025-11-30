@@ -43,8 +43,8 @@ Notes
 If you want me to push the changes to a remote repo or open a PR, provide the remote URL and I'll prepare the push commands (I will not push without your approval).
 
 ---
-Generated on 11 Kasım 2025
-# 🧬 CRISPR-FinAI — Bio-Inspired Adaptive Financial Intelligence
+
+## 🧬 CRISPR-FinAI — Bio-Inspired Adaptive Financial Intelligence
 
 > **Think like biology. Code like AI. Optimize like evolution.**
 

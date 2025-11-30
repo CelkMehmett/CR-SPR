@@ -1,0 +1,6 @@
+model,final_pnl_mean
+baseline_ens,-0.9411578301817287
+crispr_ens,-0.9411578301817287
+linear,-0.7493609125694001
+persistence,-0.9465934525784265
+rf,0.0

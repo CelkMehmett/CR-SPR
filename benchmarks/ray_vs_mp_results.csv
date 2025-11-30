@@ -1,0 +1,5 @@
+backend,workers,time_s,note
+multiprocessing,1,0.0013687610626220703,
+multiprocessing,2,0.01512908935546875,
+multiprocessing,4,0.017657756805419922,
+ray,auto,,ray_not_available

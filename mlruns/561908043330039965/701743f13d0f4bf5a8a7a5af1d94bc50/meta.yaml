@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/561908043330039965/701743f13d0f4bf5a8a7a5af1d94bc50/artifacts
+end_time: 1760171064823
+entry_point_name: ''
+experiment_id: '561908043330039965'
+lifecycle_stage: active
+run_id: 701743f13d0f4bf5a8a7a5af1d94bc50
+run_name: AAPL_naive_momentum_comprehensive
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760171064771
+status: 3
+tags: []
+user_id: mehmetcelik

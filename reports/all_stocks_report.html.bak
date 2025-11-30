@@ -1,0 +1,2595 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>CRISPR - All Stocks Report</title>
+<style>body{font-family:Arial,Helvetica,sans-serif;margin:20px;background:#f6f8fb} .card{border:1px solid #ddd;padding:12px;margin-bottom:18px;border-radius:6px;background:#fff} h1{color:#2a3f5f} .dashboard-embed{border:1px solid #ccc;padding:8px;margin-top:8px;background:#fff}</style>
+</head><body>
+<h1>CRISPR Consolidated Report (inlined dashboards)</h1>
+<p>Generated: 2025-11-07T07:59:44.279205Z</p>
+<nav><strong>Contents:</strong> <ul>
+<li><a href='#aapl'>aapl</a></li>
+<li><a href='#abt'>abt</a></li>
+<li><a href='#amzn'>amzn</a></li>
+<li><a href='#bac'>bac</a></li>
+<li><a href='#brk-b'>brk-b</a></li>
+<li><a href='#cmcsa'>cmcsa</a></li>
+<li><a href='#csco'>csco</a></li>
+<li><a href='#cvx'>cvx</a></li>
+<li><a href='#dis'>dis</a></li>
+<li><a href='#googl'>googl</a></li>
+<li><a href='#hd'>hd</a></li>
+<li><a href='#intc'>intc</a></li>
+<li><a href='#jnj'>jnj</a></li>
+<li><a href='#jpm'>jpm</a></li>
+<li><a href='#ko'>ko</a></li>
+<li><a href='#ma'>ma</a></li>
+<li><a href='#mcd'>mcd</a></li>
+<li><a href='#meta'>meta</a></li>
+<li><a href='#msft'>msft</a></li>
+<li><a href='#nflx'>nflx</a></li>
+<li><a href='#nke'>nke</a></li>
+<li><a href='#nvda'>nvda</a></li>
+<li><a href='#orcl'>orcl</a></li>
+<li><a href='#pfe'>pfe</a></li>
+<li><a href='#pg'>pg</a></li>
+<li><a href='#tsla'>tsla</a></li>
+<li><a href='#unh'>unh</a></li>
+<li><a href='#v'>v</a></li>
+<li><a href='#vz'>vz</a></li>
+<li><a href='#xom'>xom</a></li>
+</ul></nav>
+<div class='card' id='aapl'>
+<h2>aapl</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for aapl: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+        </div>
+
+        <div class="footer">
+            <p>CRISPR AI Trading System | Powered by Genetic Algorithm Strategy Optimization</p>
+            <p>This dashboard shows backtested performance. Past performance does not guarantee future results.</p>
+        </div>
+    </body>
+    </html>
+                padding: 20px;
+                border-radius: 8px;
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>CRISPR Trading Strategies Dashboard - AAPL</title>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            margin: 0;
+                            padding: 20px;
+                            background-color: #f5f5f5;
+                        }
+                        .header {
+                            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                            color: white;
+                            padding: 20px;
+                            border-radius: 8px;
+                            margin-bottom: 20px;
+                        }
+                        .header h1 {
+                            margin: 0 0 5px 0;
+                        }
+                        .header p {
+                            margin: 5px 0;
+                            opacity: 0.9;
+                        }
+                        .grid {
+                            display: grid;
+                            grid-template-columns: 1fr;
+                            gap: 20px;
+                            margin-bottom: 20px;
+                        }
+                        .grid.two-col {
+                            grid-template-columns: 1fr 1fr;
+                        }
+                        .card {
+                            background: white;
+                            border-radius: 8px;
+                            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                            padding: 15px;
+                        }
+                        .footer {
+                            text-align: center;
+                            margin-top: 40px;
+                            padding-top: 20px;
+                            border-top: 1px solid #ddd;
+                            color: #666;
+                            font-size: 12px;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="header">
+                        <h1>🧬 CRISPR AI Trading Strategies</h1>
+                        <p>Symbol: AAPL | Generated: 2025-11-06 12:10:28 UTC</p>
+                        <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+                    </div>
+
+                    
+
+
+
+
+
+
+
+                    <div class="grid">
+                        <div class="card">
+                            <html>
+                            <head><meta charset="utf-8" /></head>
+                            <body>
+                                <div>
+                                    
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/aapl_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='abt'>
+<h2>abt</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for abt: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - ABT</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: ABT | Generated: 2025-11-06 12:10:40 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/abt_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='amzn'>
+<h2>amzn</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for amzn: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - AMZN</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: AMZN | Generated: 2025-11-06 12:10:30 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/amzn_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='bac'>
+<h2>bac</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for bac: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - BAC</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: BAC | Generated: 2025-11-06 12:10:36 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/bac_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='brk-b'>
+<h2>brk-b</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for brk-b: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - BRK-B</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: BRK-B | Generated: 2025-11-06 12:10:32 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/brk-b_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='cmcsa'>
+<h2>cmcsa</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for cmcsa: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - CMCSA</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: CMCSA | Generated: 2025-11-06 12:10:38 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/cmcsa_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='csco'>
+<h2>csco</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for csco: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - CSCO</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: CSCO | Generated: 2025-11-06 12:10:40 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/csco_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='cvx'>
+<h2>cvx</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for cvx: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - CVX</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: CVX | Generated: 2025-11-06 12:10:38 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/cvx_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='dis'>
+<h2>dis</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for dis: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - DIS</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: DIS | Generated: 2025-11-06 12:10:35 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/dis_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='googl'>
+<h2>googl</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for googl: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - GOOGL</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: GOOGL | Generated: 2025-11-06 12:10:30 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/googl_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='hd'>
+<h2>hd</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for hd: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - HD</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: HD | Generated: 2025-11-06 12:10:35 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/hd_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='intc'>
+<h2>intc</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for intc: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - INTC</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: INTC | Generated: 2025-11-06 12:10:40 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/intc_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='jnj'>
+<h2>jnj</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for jnj: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - JNJ</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: JNJ | Generated: 2025-11-06 12:10:34 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/jnj_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='jpm'>
+<h2>jpm</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for jpm: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - JPM</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: JPM | Generated: 2025-11-06 12:10:33 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/jpm_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='ko'>
+<h2>ko</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for ko: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - KO</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: KO | Generated: 2025-11-06 12:10:37 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/ko_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='ma'>
+<h2>ma</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for ma: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - MA</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: MA | Generated: 2025-11-06 12:10:33 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/ma_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='mcd'>
+<h2>mcd</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for mcd: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - MCD</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: MCD | Generated: 2025-11-06 12:10:41 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/mcd_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='meta'>
+<h2>meta</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for meta: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - META</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: META | Generated: 2025-11-06 12:10:31 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/meta_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='msft'>
+<h2>msft</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for msft: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - MSFT</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: MSFT | Generated: 2025-11-06 12:10:29 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/msft_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='nflx'>
+<h2>nflx</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for nflx: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - NFLX</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: NFLX | Generated: 2025-11-06 12:10:37 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/nflx_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='nke'>
+<h2>nke</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for nke: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - NKE</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: NKE | Generated: 2025-11-06 12:10:41 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/nke_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='nvda'>
+<h2>nvda</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for nvda: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - NVDA</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: NVDA | Generated: 2025-11-06 12:10:31 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/nvda_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='orcl'>
+<h2>orcl</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for orcl: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - ORCL</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: ORCL | Generated: 2025-11-06 12:10:39 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/orcl_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='pfe'>
+<h2>pfe</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for pfe: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - PFE</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: PFE | Generated: 2025-11-06 12:10:36 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/pfe_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='pg'>
+<h2>pg</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for pg: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - PG</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: PG | Generated: 2025-11-06 12:10:34 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/pg_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='tsla'>
+<h2>tsla</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for tsla: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - TSLA</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: TSLA | Generated: 2025-11-06 12:10:32 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/tsla_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='unh'>
+<h2>unh</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for unh: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - UNH</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: UNH | Generated: 2025-11-06 12:10:35 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/unh_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='v'>
+<h2>v</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for v: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - V</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: V | Generated: 2025-11-06 12:10:33 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/v_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='vz'>
+<h2>vz</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for vz: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - VZ</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: VZ | Generated: 2025-11-06 12:10:39 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/vz_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class='card' id='xom'>
+<h2>xom</h2>
+<p style='color:#444'>Embedded weight history with 6 timestamp(s). Trend for xom: N/A. Latest weight: N/A. Sample top weights: AAPL: 1.0. Best fitness (per generation): first=0.1377, last=0.1899 (improving). Population diversity is very low (converged). Optimization has converged (no improvement in recent generations).</p>
+<div class='dashboard-embed'>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CRISPR Trading Strategies Dashboard - XOM</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f5f5f5;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0 0 5px 0;
+            }
+            .header p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            .grid.two-col {
+                grid-template-columns: 1fr 1fr;
+            }
+            .card {
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                color: #666;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🧬 CRISPR AI Trading Strategies</h1>
+            <p>Symbol: XOM | Generated: 2025-11-06 12:10:38 UTC</p>
+            <p>Visual Analytics Dashboard - Real-time Strategy Performance Monitoring</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <html>
+<head><meta charset="utf-8" /></head>
+<body>
+    <div>                        
+
+
+
+
+
+
+
+
+
+<script>window.__INITIAL_WEIGHT_HISTORY = {"timestamps": ["2025-11-06T15:19:43.966930", "2025-11-06T15:19:43.967273", "2025-11-06T15:19:43.967561", "2025-11-06T15:19:43.967862", "2025-11-06T15:19:43.968172", "2025-11-06T15:19:43.968418"], "weights": {"AAPL": [null, 1.0, null, 1.0, null, 1.0]}};</script>
+
+</div>
+<p><a href='dashboards/xom_dashboard.html' target='_blank'>Open original dashboard</a></p>
+</div>
+<div class="card" id="model-comparison">
+<h2>Model Comparison</h2>
+<pre style="white-space:pre-wrap;">
+{
+  "timestamp": "2025-11-05T11:53:05.707617",
+  "single_symbol_result": {
+    "ranking": [
+      [
+        "MACD",
+        0.061717953335638426
+      ],
+      [
+        "AdaptiveRisk",
+        0.0418776253030871
+      ],
+      [
+        "Momentum",
+        0.025518061813015486
+      ],
+      [
+        "MeanReversion",
+        0.004871008940427038
+      ],
+      [
+        "Ensemble",
+        0.002671006721515241
+      ]
+    ],
+    "results_summary": {
+      "Momentum": {
+        "total_return": 0.0749381929215549,
+        "sharpe_ratio": 0.025518061813015486,
+        "max_drawdown": 0.3735535545055555,
+        "win_rate": 0.3968253968253968,
+        "num_trades": "70",
+        "strategy_name": "Momentum",
+        "avg_confidence": 0.719047619047619
+      },
+      "MeanReversion": {
+        "total_return": 0.002838859216409473,
+        "sharpe_ratio": 0.004871008940427038,
+        "max_drawdown": 0.08645707804945302,
+        "win_rate": 0.051587301587301584,
+        "num_trades": "33",
+        "strategy_name": "MeanReversion",
+        "avg_confidence": 0.5201864840590388
+      },
+      "MACD": {
+        "total_return": 0.07992185154644238,
+        "sharpe_ratio": 0.061717953335638426,
+        "max_drawdown": 0.1489422216081847,
+        "win_rate": 0.047619047619047616,
+        "num_trades": "41",
+        "strategy_name": "MACD",
+        "avg_confidence": 0.540883165696263
+      },
+      "Ensemble": {
+        "total_return": 0.0005471700508232757,
+        "sharpe_ratio": 0.002671006721515241,
+        "max_drawdown": 0.011587188447263586,
+        "win_rate": 0.007936507936507936,
+        "num_trades": "9",
+        "strategy_name": "Ensemble",
+        "avg_confidence": 0.5975608578587492
+      },
+      "AdaptiveRisk": {
+        "total_return": 0.13402702847998738,
+        "sharpe_ratio": 0.0418776253030871,
+        "max_drawdown": 0.3735535545055555,
+        "win_rate": 0.2976190476190476,
+        "num_trades": "59",
+        "strategy_name": "AdaptiveRisk",
+        "avg_confidence": 0.719047619047619
+      }
+    }
+  }
+}
+</pre>
+</div>
+</body></html>

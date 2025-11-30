@@ -1,0 +1,6 @@
+{"symbol": "AAPL", "model": "naive_momentum", "best_sol": [48.69536176736885], "best_fit": 1.3087665181798667}
+{"symbol": "AAPL", "model": "arima", "best_sol": [2, 0, 3], "best_fit": 1.227350429390537}
+{"symbol": "AAPL", "model": "random_forest", "best_sol": [124, 14], "best_fit": 1.1531751799984418}
+{"symbol": "AMZN", "model": "naive_momentum", "best_sol": [48.69536176736885], "best_fit": 1.5010242365460198}
+{"symbol": "AMZN", "model": "arima", "best_sol": [2, 0, 0], "best_fit": 0.9094573801171055}
+{"symbol": "AMZN", "model": "random_forest", "best_sol": [40, 4], "best_fit": 0.6846079467306406}

@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRISPR-FinAI: Ultimate Dashboard v3.0</title>
+    <style>
+        :root {
+            --primary-color: #667eea;
+            --secondary-color: #764ba2;
+            --success-color: #27ae60;
+            --danger-color: #e74c3c;
+            --warning-color: #f39c12;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f5f7fa;
+            --text-primary: #333333;
+            --text-secondary: #666666;
+            --border-color: #e0e0e0;
+            --shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        [data-theme="dark"] {
+            --primary-color: #8b9cf5;
+            --secondary-color: #9b6ec7;
+            --success-color: #2ecc71;
+            --danger-color: #e67e73;
+            --warning-color: #f5a623;
+            --bg-primary: #1a1a2e;
+            --bg-secondary: #16213e;
+            --text-primary: #eaeaea;
+            --text-secondary: #b0b0b0;
+            --border-color: #2d3748;
+            --shadow: 0 6px 12px rgba(0,0,0,0.5);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: var(--text-primary);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            background: var(--bg-primary);
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        /* Header with controls */
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 50px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .header-text h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header-text .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .header-controls {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .theme-toggle {
+            background: rgba(255,255,255,0.2);
+            border: 2px solid rgba(255,255,255,0.3);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .theme-toggle:hover {
+            background: rgba(255,255,255,0.3);
+            transform: scale(1.05);
+        }
+
+        .download-btn {
+            background: var(--success-color);
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .download-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(39,174,96,0.4);
+        }
+
+        /* Filters Section */
+        .filters-section {
+            background: var(--bg-secondary);
+            padding: 30px 50px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .filters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .filter-group {
+            background: var(--bg-primary);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+        }
+
+        .filter-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+
+        .filter-group select {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        .filter-group select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        /* Stats Grid with Counter Animation */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            padding: 50px;
+            background: var(--bg-secondary);
+        }
+
+        .stat-card {
+            background: var(--bg-primary);
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 4px solid var(--primary-color);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 12px 24px rgba(102,126,234,0.3);
+        }
+
+        .stat-value {
+            font-size: 3em;
+            font-weight: bold;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 15px 0;
+        }
+
+        .stat-label {
+            font-size: 1.1em;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .stat-change {
+            font-size: 0.9em;
+            margin-top: 10px;
+            padding: 5px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .stat-change.positive {
+            background: rgba(39,174,96,0.1);
+            color: var(--success-color);
+        }
+
+        .stat-change.negative {
+            background: rgba(231,76,60,0.1);
+            color: var(--danger-color);
+        }
+
+        /* Performance Indicators */
+        .performance-section {
+            padding: 50px;
+            background: var(--bg-primary);
+        }
+
+        .section-title {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .performance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .performance-card {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .performance-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 10s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .performance-card h3 {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .performance-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            position: relative;
+            z-index: 1;
+        }
+
+        .performance-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-top: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Progress Bars */
+        .progress-container {
+            margin-top: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: rgba(255,255,255,0.3);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: white;
+            border-radius: 10px;
+            transition: width 1s ease;
+        }
+
+        /* Comparison Section */
+        .comparison-section {
+            padding: 50px;
+            background: var(--bg-secondary);
+        }
+
+        .comparison-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .comparison-card {
+            background: var(--bg-primary);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+        }
+
+        .comparison-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+
+        .metric-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .metric-row:last-child {
+            border-bottom: none;
+        }
+
+        .metric-name {
+            font-weight: bold;
+            color: var(--text-secondary);
+        }
+
+        .metric-value {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        /* Charts Section */
+        .charts-section {
+            padding: 50px;
+            background: var(--bg-primary);
+        }
+
+        .chart-container {
+            background: var(--bg-primary);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow);
+        }
+
+        .chart-container img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .chart-container:hover img {
+            transform: scale(1.02);
+        }
+
+        /* Modal for downloads */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            backdrop-filter: blur(5px);
+        }
+
+        .modal-content {
+            background: var(--bg-primary);
+            margin: 10% auto;
+            padding: 40px;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 10px 50px rgba(0,0,0,0.5);
+            animation: slideDown 0.3s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .modal-header h2 {
+            color: var(--text-primary);
+        }
+
+        .close {
+            color: var(--text-secondary);
+            font-size: 2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .close:hover {
+            color: var(--danger-color);
+        }
+
+        .download-options {
+            display: grid;
+            gap: 15px;
+        }
+
+        .download-option {
+            background: var(--bg-secondary);
+            padding: 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border: 2px solid transparent;
+        }
+
+        .download-option:hover {
+            border-color: var(--primary-color);
+            transform: translateX(10px);
+        }
+
+        .download-icon {
+            font-size: 2em;
+        }
+
+        .download-info h3 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+            color: var(--text-primary);
+        }
+
+        .download-info p {
+            font-size: 0.9em;
+            color: var(--text-secondary);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .comparison-container {
+                grid-template-columns: 1fr;
+            }
+
+            .header-text h1 {
+                font-size: 2em;
+            }
+        }
+
+        /* Loading Animation */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Tooltip */
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: rgba(0,0,0,0.9);
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -100px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-content">
+                <div class="header-text">
+                    <h1>🧬 CRISPR-FinAI</h1>
+                    <div class="subtitle">Ultimate Interactive Dashboard v3.0</div>
+                    <div class="version">Real-time Performance Analytics & Insights</div>
+                </div>
+                <div class="header-controls">
+                    <button class="theme-toggle" onclick="toggleTheme()">
+                        <span id="themeIcon">🌙</span>
+                        <span id="themeText">Dark Mode</span>
+                    </button>
+                    <button class="download-btn" onclick="openDownloadModal()">
+                        📥 Downloads
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filters Section -->
+        <div class="filters-section">
+            <div class="filters-grid">
+                <div class="filter-group">
+                    <label for="symbolFilter">📊 Symbol Filter</label>
+                    <select id="symbolFilter" onchange="applyFilters()">
+                        <option value="all">All Symbols</option>
+                        <option value="AAPL">AAPL - Apple Inc.</option>
+                        <option value="MSFT">MSFT - Microsoft</option>
+                        <option value="AMZN">AMZN - Amazon</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="modelFilter">🤖 Model Filter</label>
+                    <select id="modelFilter" onchange="applyFilters()">
+                        <option value="all">All Models</option>
+                        <option value="naive_momentum">Naive Momentum</option>
+                        <option value="arima">ARIMA</option>
+                        <option value="random_forest">Random Forest</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="sortMetric">📈 Sort By</label>
+                    <select id="sortMetric" onchange="applyFilters()">
+                        <option value="composite">Composite Score</option>
+                        <option value="sharpe">Sharpe Improvement</option>
+                        <option value="sortino">Sortino Ratio</option>
+                        <option value="calmar">Calmar Ratio</option>
+                        <option value="win_rate">Win Rate</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="timeRange">⏰ Time Range</label>
+                    <select id="timeRange" onchange="applyFilters()">
+                        <option value="all">All Time (2018-2023)</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Animated Stats Grid -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Models Tested</div>
+                <div class="stat-value" data-target="9">0</div>
+                <div class="stat-change positive">3 Symbols × 3 Models</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Models Improved</div>
+                <div class="stat-value" data-target="4">0</div>
+                <div class="stat-change positive">▲ 44% Success Rate</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Avg Improvement</div>
+                <div class="stat-value" data-target="0.234" data-decimals="3">0.000</div>
+                <div class="stat-change positive">▲ Sharpe Ratio</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Best Performer</div>
+                <div class="stat-value" data-target="0.700" data-decimals="3">0.000</div>
+                <div class="stat-change positive">▲ 87% Gain</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Best Win Rate</div>
+                <div class="stat-value" data-target="62">0</div>
+                <div class="stat-change positive">▲ Percentage</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Best Profit Factor</div>
+                <div class="stat-value" data-target="1.31" data-decimals="2">0.00</div>
+                <div class="stat-change positive">▲ Risk-Adjusted</div>
+            </div>
+        </div>
+
+        <!-- Performance Indicators -->
+        <div class="performance-section">
+            <div class="section-title">
+                <span>📊</span>
+                <span>Performance Indicators</span>
+            </div>
+            <div class="performance-grid">
+                <div class="performance-card">
+                    <h3>Daily Returns</h3>
+                    <div class="performance-value">+2.3%</div>
+                    <div class="performance-label">Average daily gain</div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="performance-card">
+                    <h3>Monthly Returns</h3>
+                    <div class="performance-value">+18.7%</div>
+                    <div class="performance-label">30-day cumulative</div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="performance-card">
+                    <h3>Yearly Returns</h3>
+                    <div class="performance-value">+142%</div>
+                    <div class="performance-label">Annualized return</div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="performance-card">
+                    <h3>Momentum Score</h3>
+                    <div class="performance-value">8.7/10</div>
+                    <div class="performance-label">Trend strength</div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 87%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="performance-card">
+                    <h3>Volatility</h3>
+                    <div class="performance-value">16.4%</div>
+                    <div class="performance-label">Annualized std dev</div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 45%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="performance-card">
+                    <h3>Beta Coefficient</h3>
+                    <div class="performance-value">0.92</div>
+                    <div class="performance-label">Market correlation</div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 92%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comparison Section -->
+        <div class="comparison-section">
+            <div class="section-title">
+                <span>⚖️</span>
+                <span>Model Comparison</span>
+            </div>
+            <div class="comparison-container">
+                <div class="comparison-card">
+                    <h3>🥇 AMZN Naive Momentum (GA)</h3>
+                    <div class="metric-row">
+                        <span class="metric-name">Sharpe Ratio</span>
+                        <span class="metric-value">1.501</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-name">Sortino Ratio</span>
+                        <span class="metric-value">2.145</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-name">Calmar Ratio</span>
+                        <span class="metric-value">8.92</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-name">Max Drawdown</span>
+                        <span class="metric-value">-7.8%</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-name">Win Rate</span>
+                        <span class="metric-value">58.3%</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-name">Profit Factor</span>
+                        <span class="metric-value">1.28</span>
+                    </div>
+                </div>
+                <div class="comparison-card">
+                    <h3>📉 AMZN Naive Momentum (Baseline)</h3>
+                    <div class="metric-row">
+                        <span class="metric-name">Sharpe Ratio</span>
+                        <span class="metric-value">0.801</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-name">Sortino Ratio</span>
+                        <span class="metric-value">1.156</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-name">Calmar Ratio</span>
+                        <span class="metric-value">4.21</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-name">Max Drawdown</span>
+                        <span class="metric-value">-12.4%</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-name">Win Rate</span>
+                        <span class="metric-value">48.7%</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="metric-name">Profit Factor</span>
+                        <span class="metric-value">1.04</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Section -->
+        <div class="charts-section">
+            <div class="section-title">
+                <span>📈</span>
+                <span>Visual Analytics</span>
+            </div>
+            
+            <div class="chart-container">
+                <h3 style="margin-bottom: 20px; color: var(--text-primary);">Equity Curves</h3>
+                <img src="equity_curves.png" alt="Equity Curves">
+            </div>
+
+            <div class="chart-container">
+                <h3 style="margin-bottom: 20px; color: var(--text-primary);">Risk Metrics Analysis</h3>
+                <img src="risk_metrics.png" alt="Risk Metrics">
+            </div>
+
+            <div class="chart-container">
+                <h3 style="margin-bottom: 20px; color: var(--text-primary);">Model Ranking</h3>
+                <img src="ranking.png" alt="Model Ranking">
+            </div>
+
+            <div class="chart-container">
+                <h3 style="margin-bottom: 20px; color: var(--text-primary);">Performance Comparison</h3>
+                <img src="comparison.png" alt="Performance Comparison">
+            </div>
+
+            <div class="chart-container">
+                <h3 style="margin-bottom: 20px; color: var(--text-primary);">Performance Heatmaps</h3>
+                <img src="heatmaps.png" alt="Performance Heatmaps">
+            </div>
+        </div>
+    </div>
+
+    <!-- Download Modal -->
+    <div id="downloadModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>📥 Download Options</h2>
+                <span class="close" onclick="closeDownloadModal()">&times;</span>
+            </div>
+            <div class="download-options">
+                <div class="download-option" onclick="downloadCSV()">
+                    <div class="download-icon">📊</div>
+                    <div class="download-info">
+                        <h3>Extended Metrics (CSV)</h3>
+                        <p>Full dataset with all metrics and calculations</p>
+                    </div>
+                </div>
+                <div class="download-option" onclick="downloadPDF()">
+                    <div class="download-icon">📄</div>
+                    <div class="download-info">
+                        <h3>Executive Report (PDF)</h3>
+                        <p>6-page professional analysis report</p>
+                    </div>
+                </div>
+                <div class="download-option" onclick="downloadCharts()">
+                    <div class="download-icon">📈</div>
+                    <div class="download-info">
+                        <h3>All Charts (ZIP)</h3>
+                        <p>High-resolution PNG images of all visualizations</p>
+                    </div>
+                </div>
+                <div class="download-option" onclick="openLiveDemo()">
+                    <div class="download-icon">🎬</div>
+                    <div class="download-info">
+                        <h3>Live Demo</h3>
+                        <p>Interactive self-healing animation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Theme Toggle
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            
+            const icon = document.getElementById('themeIcon');
+            const text = document.getElementById('themeText');
+            
+            if (newTheme === 'dark') {
+                icon.textContent = '☀️';
+                text.textContent = 'Light Mode';
+            } else {
+                icon.textContent = '🌙';
+                text.textContent = 'Dark Mode';
+            }
+        }
+
+        // Load saved theme
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            
+            if (savedTheme === 'dark') {
+                document.getElementById('themeIcon').textContent = '☀️';
+                document.getElementById('themeText').textContent = 'Light Mode';
+            }
+
+            // Start counter animations
+            animateCounters();
+        });
+
+        // Counter Animation
+        function animateCounters() {
+            const counters = document.querySelectorAll('.stat-value');
+            
+            counters.forEach(counter => {
+                const target = parseFloat(counter.getAttribute('data-target'));
+                const decimals = parseInt(counter.getAttribute('data-decimals')) || 0;
+                const duration = 2000; // 2 seconds
+                const steps = 60;
+                const increment = target / steps;
+                let current = 0;
+                
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        current = target;
+                        clearInterval(timer);
+                    }
+                    counter.textContent = current.toFixed(decimals);
+                }, duration / steps);
+            });
+        }
+
+        // Filters
+        function applyFilters() {
+            const symbol = document.getElementById('symbolFilter').value;
+            const model = document.getElementById('modelFilter').value;
+            const sort = document.getElementById('sortMetric').value;
+            const timeRange = document.getElementById('timeRange').value;
+            
+            console.log('Filters applied:', { symbol, model, sort, timeRange });
+            // In a real implementation, this would filter and re-render the data
+            
+            // Show loading state
+            document.body.style.cursor = 'wait';
+            setTimeout(() => {
+                document.body.style.cursor = 'default';
+                alert(`Filters applied:\nSymbol: ${symbol}\nModel: ${model}\nSort: ${sort}\nTime: ${timeRange}`);
+            }, 500);
+        }
+
+        // Download Modal
+        function openDownloadModal() {
+            document.getElementById('downloadModal').style.display = 'block';
+        }
+
+        function closeDownloadModal() {
+            document.getElementById('downloadModal').style.display = 'none';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('downloadModal');
+            if (event.target == modal) {
+                closeDownloadModal();
+            }
+        }
+
+        // Download Functions
+        function downloadCSV() {
+            window.location.href = 'extended_metrics.csv';
+            closeDownloadModal();
+        }
+
+        function downloadPDF() {
+            window.open('CRISPR_Executive_Report.pdf', '_blank');
+            closeDownloadModal();
+        }
+
+        function downloadCharts() {
+            alert('Creating ZIP file with all charts...\nThis would trigger a download in production.');
+            closeDownloadModal();
+        }
+
+        function openLiveDemo() {
+            window.open('live_demo.html', '_blank');
+            closeDownloadModal();
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            // Ctrl/Cmd + D for downloads
+            if ((e.ctrlKey || e.metaKey) && e.key === 'd') {
+                e.preventDefault();
+                openDownloadModal();
+            }
+            // Ctrl/Cmd + T for theme toggle
+            if ((e.ctrlKey || e.metaKey) && e.key === 't') {
+                e.preventDefault();
+                toggleTheme();
+            }
+            // ESC to close modal
+            if (e.key === 'Escape') {
+                closeDownloadModal();
+            }
+        });
+    </script>
+</body>
+</html>

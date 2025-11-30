@@ -1,0 +1,1 @@
+{"best_params": {"population_size": 10, "mutation_rate": 0.11710411006371776, "crossover_rate": 0.6887410576506157, "elitism_ratio": 0.226340004168204, "genome_dim": 2}, "best_value": 0.22666678097886644, "n_trials": 1, "direction": 2}

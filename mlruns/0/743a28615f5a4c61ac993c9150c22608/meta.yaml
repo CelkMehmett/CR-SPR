@@ -1,0 +1,14 @@
+artifact_uri: /home/mehmetcelik/crispr/mlruns/0/743a28615f5a4c61ac993c9150c22608/artifacts
+end_time: 1762273483917
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 743a28615f5a4c61ac993c9150c22608
+run_name: amazing-shark-467
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762273483894
+status: 3
+tags: []
+user_id: mehmetcelik

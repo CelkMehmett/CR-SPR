@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-11-07T10:12:43.323708",
+  "total_symbols": 20,
+  "successful": 0,
+  "results": [
+    {
+      "symbol": "AAPL",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "MSFT",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "GOOGL",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "AMZN",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "NVDA",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "TSLA",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "META",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "NFLX",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "ADBE",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "ACGL",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "JPM",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "BAC",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "WFC",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "GS",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "BLK",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "XOM",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "CVX",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "COP",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "MPC",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    },
+    {
+      "symbol": "PSX",
+      "success": false,
+      "error": "GeneticAlgorithmEditor.__init__() got an unexpected keyword argument 'genome'",
+      "weight_history": {}
+    }
+  ]
+}
